@@ -1,7 +1,3 @@
-ci:
-  blocking:
-    - soc/compliant
-
 deploy:
   max_commits: 1
   override:
