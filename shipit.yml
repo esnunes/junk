@@ -1,5 +1,5 @@
 deploy:
-  max_commits: 1
+  max_commits: 2
   override:
     - echo start
     - sleep 60
