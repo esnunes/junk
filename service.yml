@@ -1,6 +1,6 @@
 test: hello world
 safeguards:
-  github-certification:
+  github_certification:
     labels:
       - hello
       - world
