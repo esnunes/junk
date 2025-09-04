@@ -2,7 +2,8 @@ deploy:
   max_commits: 2
   override:
     - echo start
-    - sleep 60
+    - dd if=/dev/urandom of=20mb-file bs=1M count=20
+    - cat 20mb-file
     - echo done
 
 rollback:
